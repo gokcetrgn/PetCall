@@ -103,9 +103,9 @@ class _AnasayfaState extends State<Anasayfa> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  IconButton(onPressed: () {}, icon: Icon(Icons.home)),
-                  IconButton(onPressed: () {}, icon: Icon(Icons.person)),
-                  IconButton(onPressed: () {}, icon: Icon(Icons.settings)),
+                  IconButton(onPressed: () {}, icon: Icon(Icons.home,color: Colors.black,)),
+                  IconButton(onPressed: () {}, icon: Icon(Icons.person,color: Colors.black,)),
+                  IconButton(onPressed: () {}, icon: Icon(Icons.settings,color: Colors.black,)),
                 ],
               )),
         ),
